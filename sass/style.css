@@ -1,0 +1,217 @@
+body {
+  background-color: indigo;
+}
+
+.sun {
+  width: 80px;
+  height: 80px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  position: absolute;
+  top: 400px;
+  left: 700px;
+}
+
+.circle1 {
+  width: 140px;
+  height: 140px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 370px;
+  left: 670px;
+}
+
+.planet1 {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 375px;
+  left: 680px;
+  -webkit-animation: hereket1 1s infinite linear;
+          animation: hereket1 1s infinite linear;
+}
+.planet1 .planett1 {
+  width: 50px;
+  height: 50px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  position: absolute;
+  right: 95px;
+}
+
+@-webkit-keyframes hereket1 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hereket1 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.planet2 {
+  width: 200px;
+  height: 200px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 345px;
+  left: 640px;
+}
+
+.planett2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 373px;
+  left: 667px;
+  -webkit-animation: hereket2 3s infinite linear;
+          animation: hereket2 3s infinite linear;
+}
+.planett2 .planettt2 {
+  width: 40px;
+  height: 40px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  position: absolute;
+  left: 132px;
+}
+
+@-webkit-keyframes hereket2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hereket2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.circle2 {
+  width: 250px;
+  height: 250px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 321px;
+  left: 615px;
+}
+
+.planet3 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 350px;
+  left: 643px;
+  -webkit-animation: hereket3 4s infinite linear;
+          animation: hereket3 4s infinite linear;
+}
+.planet3 .planett3 {
+  width: 40px;
+  height: 40px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  position: absolute;
+  right: 185px;
+}
+
+@-webkit-keyframes hereket3 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hereket3 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.circle3 {
+  width: 300px;
+  height: 300px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 297px;
+  left: 590px;
+}
+
+.planet4 {
+  width: 238px;
+  height: 237px;
+  position: absolute;
+  top: 330px;
+  left: 621px;
+  -webkit-animation: hereket4 3s infinite linear;
+          animation: hereket4 3s infinite linear;
+}
+.planet4 .planett4 {
+  width: 30px;
+  height: 30px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  position: absolute;
+  right: 213px;
+}
+
+@-webkit-keyframes hereket4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hereket4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.circle4 {
+  width: 400px;
+  height: 400px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 250px;
+  left: 539px;
+}
+
+.planet5 {
+  width: 341px;
+  height: 299px;
+  position: absolute;
+  top: 306px;
+  left: 570px;
+  -webkit-animation: hereket5 2s infinite linear;
+          animation: hereket5 2s infinite linear;
+}
+.planet5 .planett5 {
+  width: 30px;
+  height: 30px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+
+@-webkit-keyframes hereket5 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hereket5 {
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */
